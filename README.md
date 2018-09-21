@@ -3,7 +3,7 @@
 自己 动手写一个HashMap
 
  
-
+```java
 public static void main(String[] args) {
 		Map< String, String> ma = new HashMap<String, String>();
 		myMap<String,String> map= new myHashMap<String,String>();
@@ -29,8 +29,10 @@ public static void main(String[] args) {
 		Long t4 = System.currentTimeMillis();
 		System.out.println("JDK Map 耗时时间为： "+(t4-t3));
 	}
+```
  
 结果 如下：
+```java
 key: key998  value: value998
 key: key999  value: value999
 zjjtv Map 耗时时间为： 153
@@ -39,3 +41,4 @@ zjjtv Map 耗时时间为： 153
 key: key998  value: value998
 key: key999  value: value999
 JDK Map 耗时时间为： 246
+```
